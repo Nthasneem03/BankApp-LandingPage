@@ -44,3 +44,9 @@ A simple landing page for a bank app using React, my first React app
      ```
      npm start dev
      ```
+
+
+## Technologies Used:
+- React (via Vite)
+- Tailwind CSS
+- HTML
