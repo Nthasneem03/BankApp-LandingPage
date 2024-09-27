@@ -9,26 +9,38 @@ A simple landing page for a bank app using React, my first React app
 - `tailwind.config.js`
 
 ## Setup Instructions:
+1. **Create a New Vite React App**:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/nthasneem03/BankApp-LandingPage.git
+   First, create a new Vite-based React app on your local machine since the repository does not include all the files needed for a full Vite setup. Use the following command to create the React app with Vite:
+      
+      
    ```
-2. Navigate to the project directory:
-  ```
-  cd bankapp-landingpage
-  ```
-3. Install dependencies: Make sure you have all necessary dependencies by running:
-  
-  ```
-  npm install
-  ```
+   npm create vite@latest bank-app -- --template react
+   ```
+      
+2. **Navigate to the Project Directory**:
+      Move into the newly created project directory:
+
+      ```
+      cd bank-app
+      ```
+3. **Replace Files from the Repository**:
+   After creating the app, replace the following files in your new project with the ones from this repository:
+   - `src/` (src folder)
+   - `index.html` (Vite uses `index.html` in the root folder)
+   - `tailwind.config.js`
+
 4. Install Tailwind CSS: Install Tailwind CSS by running:
-  ```bash
-  
-  npm install -D tailwindcss
-  ```
-5. Run the app:
-  ```
-  npm start
-  ```
+     ```bash
+     
+     npm install -D tailwindcss
+     ```
+5.  **Install Dependencies**:
+   Install all required dependencies:
+      ```
+      npm install
+      ```
+6. Run the app:
+     ```
+     npm start dev
+     ```
